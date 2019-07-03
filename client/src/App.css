@@ -1,0 +1,141 @@
+@import '~antd/dist/antd.css';
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+@media only screen and (max-width: 600px) {
+
+  .cardIconText {
+    display: none
+  }
+}
+
+.brand {
+  color: aliceblue;
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.contactCard {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around
+}
+
+.cardIcons {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+}
+
+.nameInitial {
+  font-size: 7em;
+
+  margin: 0 auto
+}
+
+.bigAvatar {
+  margin: 0 auto;
+  text-align: center
+}
+
+.singleContactText {
+  font-size: 5rem;
+}
+
+.l {
+  background: #fff5ce;
+  color: rgb(129, 129, 129);
+  text-align: center;
+
+
+  font-family: 'Muli', sans-serif;
+
+
+}
+
+
+/* Card CSS */
+
+.create {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.MsgCard {
+  width: 100%
+}
+
+.centerButton {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.note {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-auto-flow: row;
+  grid-gap: 2rem;
+
+
+}
+
+.search-box {
+  text-align: center;
+}
+
+.loader {
+  text-align: center;
+}
+
+#frontpage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+#dashboard {
+  background: url('https://www.kellerindia.com/uploads/gallery/Construction-Residential-Breeze-Chennai.jpg') !important
+}
+
+.propDetails {
+  margin-top: 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.propheading {
+  margin-top: 3rem;
+}
+
+.ant-layout-header {
+  background: #616161 !important;
+}
+
+.rating {
+  font-size: 30px;
+  /* color: darkgoldenrod */
+}
+
+.proptitle {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.contact {
+  /* display: flex; */
+
+}
+
+
+/* #propertyCard {
+  max-height: 100%;
+} */
+.cardimg{
+  height:200px !important;
+}
