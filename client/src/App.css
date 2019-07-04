@@ -1,5 +1,6 @@
 @import '~antd/dist/antd.css';
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Oswald&display=swap');
 
 @media only screen and (max-width: 600px) {
 
@@ -11,6 +12,8 @@
 .brand {
   color: aliceblue;
   text-align: center;
+
+
   font-size: 30px;
   display: flex;
   justify-content: space-between;
@@ -46,7 +49,7 @@
 
 .l {
   background: #fff5ce;
-  color: rgb(129, 129, 129);
+  color: #00D1B2 !important;
   text-align: center;
 
 
@@ -112,7 +115,7 @@
 }
 
 .ant-layout-header {
-  background: #616161 !important;
+  background: #00D1B2 !important;
 }
 
 .rating {
@@ -136,6 +139,12 @@
 /* #propertyCard {
   max-height: 100%;
 } */
-.cardimg{
-  height:200px !important;
+.cardimg {
+  height: 200px !important;
+}
+
+.dashcompanyName {
+  font-family: 'Oswald', sans-serif !important;
+  letter-spacing: 10px;
+  font-size: 40px;
 }

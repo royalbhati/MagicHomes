@@ -37,7 +37,7 @@ const { Header } = Layout;
            <span
              style={{ cursor: "pointer" }}
              onClick={() => this.props.history.push("/")}>
-             Magic Home
+             Magic Homes
            </span>
            <span />
 
@@ -48,12 +48,18 @@ const { Header } = Layout;
                </Button>
              ) : (
                <span>
-               <Button type='danger' onClick={this.login}>
-                 Login
-               </Button>
-               <Button type='danger' style={{"marginLeft":"10px"}} onClick={this.signup}>
-                 Signup
-               </Button>
+                 <button
+                   class='button is-warning'
+                   style={{ marginTop: "1rem" }}
+                   onClick={this.login}>
+                   Login
+                 </button>
+                 <button
+                   class='button is-warning'
+                   style={{ marginTop: "1rem" , "marginLeft":"10px"}}
+                   onClick={this.signup}>
+                   Signup
+                 </button>
                </span>
              )}
            </span>

@@ -81,15 +81,19 @@ class Dashboard extends Component {
                 id='dashboard'
                 className='hero is-medium is-primary is-bold'>
                 <div className='hero-body'>
-                  <div className='container' style={{ textAlign: "center" }}>
-                    <h1 className='title'>Magic Homes</h1>
+                  <div
+                    className='container'
+                    style={{ textAlign: "center" }}>
+                    <h1 className='title dashcompanyName'>Magic Homes</h1>
                     <h2 className='subtitle'>
-                      One stop destination for your Dream Home
+                      <span style={{ fontFamily: "'News Cycle', cursive" , "marginTop":"10px"}}>
+                        One stop destination for your Dream Home
+                      </span>
                     </h2>
                   </div>
                 </div>
               </section>
-             
+
               <Row>
                 <Col span={5}>
                   <Card2 ref={this.child}>
